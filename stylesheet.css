@@ -1,0 +1,284 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #222831;
+    height: auto;
+}
+.web-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #222831;
+    width: 1000px;
+}
+/* NAVBAR SECTION */
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 75px;
+    width: 100%;
+    gap: 3rem;
+    background: #393E46;
+}
+.button{
+    background-color: #EEEE;
+    border: none!important;
+    border-radius: 20px;
+    outline: none;
+    color: #393E46;
+    text-align: center;
+    font-weight: 600;
+    width:250px;
+    height: 50px;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .button > a{
+        color: #00ADB5;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+/* HERO SECTION */
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    height:auto;
+}
+.hero-header{
+    color: #EEEE;
+    font-size: 3rem;
+    text-align: center;
+    padding-top:50px;
+}
+#awd{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#dev{
+    color: #00ADB5;
+    font-size: 5rem;
+}
+#luke-varga{
+    height: 150px;
+    border-radius: 50%;
+}
+#divider-line-main{
+    height: 3px;
+    width: 200px;
+    background-color: #00ADB5;
+    margin-bottom: 10px;
+}
+.herotext-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:230px;
+    width:500px;
+    border-radius: 20px;
+    background-color:#393E46;
+    margin-top: 10px;
+}
+.hero-text{
+    text-align: left;
+    width: 450px;
+    font-size: 1.5rem;
+    color: #EEEE;
+}
+#udemy-logo{
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#code-logos{
+    height:150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.udemy-logo{
+    background-color: white;
+}
+.experience-images{
+    background-color: white;
+}
+
+/* EXPERIENCE / PROJECTS */
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#my-projects-header{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ADB5;
+    font-size: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.project-webdev{
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+#webdev{
+    width: 500px;
+    height: 250px;
+    margin-right: 20px;
+}
+.project-mondrian{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+#mondrian{
+    width: 250px;
+    height: 250px;
+}
+.project-tindog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#tindog{
+    width: 300px;
+    margin-top: 20px;
+}
+#divider-line-projects{
+    height: 3px;
+    width: 200px;
+    background-color: #00ADB5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.projects-text{
+    font-weight: 400;
+    font-style: normal;
+    color: #EEE;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/* ABOUT ME SECTION */
+.aboutme-container{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+#aboutme-header{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ADB5;
+    font-size: 5rem;
+}
+#divider-line-aboutme{
+    height: 3px;
+    width: 200px;
+    background-color: #00ADB5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.aboutme-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:500px;
+    border-radius: 20px;
+    background-color:#393E46;
+    margin-top: 10px;
+}
+.aboutme-text{
+    text-align: left;
+    width: 450px;
+    font-size: 1.5rem;
+    color: #EEEE;
+}
+
+/* CONTACT ME SECTION */
+.contactme-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactme-header{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ADB5;
+    font-size: 5rem;
+}
+#contactme-divider-line{
+    height: 3px;
+    width: 200px;
+    background-color: #00ADB5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#email{
+    text-align: left;
+    width: 450px;
+    font-size: 1.5rem;
+    color: #EEEE;
+    text-decoration: none;
+}
+#my-cv{
+    text-align: left;
+    width: 450px;
+    font-size: 1.5rem;
+    color: #EEEE;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*
+.architects-daughter-regular{
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+  */
